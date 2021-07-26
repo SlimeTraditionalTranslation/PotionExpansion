@@ -31,10 +31,10 @@ public class PotionExpansion extends JavaPlugin implements SlimefunAddon {
 
         Config cfg = new Config(this);
 
-        if (cfg.getBoolean("auto-update")) {
+       /* if (cfg.getBoolean("auto-update")) {
             Updater updater = new GitHubBuildsUpdater(this, this.getFile(), "EpicPlayerA10/PotionExpansion/master");
             updater.start();
-        }
+        }*/
 
         Settings.load(cfg);
 
@@ -59,7 +59,7 @@ public class PotionExpansion extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/EpicPlayerA10/PotionExpansion/issues";
+        return "https://github.com/SlimeTraditionalTranslation/PotionExpansion/issues";
     }
 
     @Nonnull

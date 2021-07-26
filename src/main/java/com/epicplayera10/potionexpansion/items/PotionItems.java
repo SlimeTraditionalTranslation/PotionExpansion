@@ -33,7 +33,7 @@ public class PotionItems {
             new CustomItem(Material.POTION, itemMeta -> {
                 PotionMeta meta = (PotionMeta) itemMeta;
                 meta.setColor(Color.AQUA);
-                meta.setDisplayName(ChatColors.color("&bPotion Expansion"));
+                meta.setDisplayName(ChatColors.color("&b藥水擴充"));
                 meta.addEnchant(Enchantment.LURE, 1, true);
                 meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
             })
@@ -42,100 +42,100 @@ public class PotionItems {
     //Items
     public static final SlimefunItemStack ALCHEMIC_STATION = new SlimefunItemStack("ALCHEMIC_STATION",
             Material.BREWING_STAND,
-            "&6Alchemic Station",
-            "&a&oWorks like normal brewing stand but can make sight potions."
+            "&6煉金站",
+            "&a&o像普通的釀造台一樣工作，但可以製作視覺藥水."
     );
 
     // Powders
     public static final SlimefunItemStack COAL_POWDER = new SlimefunItemStack("COAL_POWDER",
             Material.GUNPOWDER,
-            "&8Coal Powder"
+            "&8煤炭粉"
     );
 
     public static final SlimefunItemStack IRON_POWDER = new SlimefunItemStack("IRON_POWDER",
             Material.GUNPOWDER,
-            "&7Iron Powder"
+            "&7鐵粉"
     );
 
     public static final SlimefunItemStack DIAMOND_POWDER = new SlimefunItemStack("DIAMOND_POWDER",
             Material.GLOWSTONE_DUST,
-            "&bDiamond Powder"
+            "&b鑽石粉"
     );
 
     public static final SlimefunItemStack GOLD_POWDER = new SlimefunItemStack("GOLD_POWDER",
             Material.GLOWSTONE_DUST,
-            "&eGold Powder"
+            "&e金粉"
     );
 
     public static final SlimefunItemStack LAPIS_POWDER = new SlimefunItemStack("LAPIS_POWDER",
             Material.GUNPOWDER,
-            "&9Lapis Powder"
+            "&9青金石粉"
     );
 
     public static final SlimefunItemStack REDSTONE_POWDER = new SlimefunItemStack("REDSTONE_POWDER",
             Material.REDSTONE,
-            "&cRedstone Powder"
+            "&c紅石粉"
     );
 
     public static final SlimefunItemStack EMERALD_POWDER = new SlimefunItemStack("EMERALD_POWDER",
             Material.GLOWSTONE_DUST,
-            "&aEmerald Powder"
+            "&a綠寶石粉"
     );
 
     public static final SlimefunItemStack QUARTZ_POWDER = new SlimefunItemStack("QUARTZ_POWDER",
             Material.SUGAR,
-            "&fQuartz Powder"
+            "&f石英粉"
     );
 
     public static final SlimefunItemStack ANCIENT_DEBRIS_POWDER = new SlimefunItemStack("ANCIENT_DEBRIS_POWDER",
             Material.REDSTONE,
-            "&4Ancient Debris Powder"
+            "&4遠古遺骸粉"
     );
 
     public static final SlimefunItemStack COPPER_POWDER = new SlimefunItemStack("COPPER_POWDER",
             Material.GLOWSTONE_DUST,
-            "&6Copper Powder"
+            "&6銅粉"
     );
 
 
     // Sights
     public static final SlimefunItemStack COAL_SIGHT = ItemUtil.createCustomPotionItem("COAL_SIGHT",
-            "&8&lCoalSight",
+            "&8&l煤炭礦視覺",
             PotionSightType.COAL_SIGHT.getColor());
 
     public static final SlimefunItemStack IRON_SIGHT = ItemUtil.createCustomPotionItem("IRON_SIGHT",
-            "&7&lIronSight",
+            "&7&l鐵礦視覺",
             PotionSightType.IRON_SIGHT.getColor());
 
     public static final SlimefunItemStack DIAMOND_SIGHT = ItemUtil.createCustomPotionItem("DIAMOND_SIGHT",
-            "&b&lDiamondSight",
+            "&b&l鑽石礦視覺",
             PotionSightType.DIAMOND_SIGHT.getColor());
 
     public static final SlimefunItemStack GOLD_SIGHT = ItemUtil.createCustomPotionItem("GOLD_SIGHT",
-            "&e&lGoldSight",
+            "&e&l金礦視覺",
             PotionSightType.GOLD_SIGHT.getColor());
 
     public static final SlimefunItemStack LAPIS_SIGHT = ItemUtil.createCustomPotionItem("LAPIS_SIGHT",
-            "&9&lLapisSight",
+            "&9&l青金石礦視覺",
             PotionSightType.LAPIS_SIGHT.getColor());
 
     public static final SlimefunItemStack REDSTONE_SIGHT = ItemUtil.createCustomPotionItem("REDSTONE_SIGHT",
-            "&c&lRedstoneSight",
+            "&c&l紅石礦視覺",
             PotionSightType.REDSTONE_SIGHT.getColor());
 
     public static final SlimefunItemStack EMERALD_SIGHT = ItemUtil.createCustomPotionItem("EMERALD_SIGHT",
-            "&a&lEmeraldSight",
+            "&a&l綠寶石礦視覺",
             PotionSightType.EMERALD_SIGHT.getColor());
 
     public static final SlimefunItemStack QUARTZ_SIGHT = ItemUtil.createCustomPotionItem("QUARTZ_SIGHT",
-            "&f&lQuartzSight",
+            "&f&l石英礦視覺",
             PotionSightType.QUARTZ_SIGHT.getColor());
 
     public static final SlimefunItemStack ANCIENT_DEBRIS_SIGHT = ItemUtil.createCustomPotionItem("ANCIENT_DEBRIS_SIGHT",
-            "&4&lAncientDebrisSight",
+            "&4&l遠古遺骸視覺",
             PotionSightType.ANCIENT_DEBRIS_SIGHT.getColor());
 
     public static final SlimefunItemStack COPPER_SIGHT = ItemUtil.createCustomPotionItem("COPPER_SIGHT",
-            "&6&lCopperSight",
+            "&6&l銅礦視覺",
             PotionSightType.COPPER_SIGHT.getColor());
 }
