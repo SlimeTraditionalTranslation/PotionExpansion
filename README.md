@@ -29,7 +29,7 @@
 - `/pe showEffects` - 在聊天中顯示自定義效果 (默認情況下，自定義效果會自動顯示在操作欄上)
 
 ## 配置
-點擊 [here](https://github.com/EpicPlayerA10/PotionExpansion/wiki).
+點擊 [這裡](https://github.com/EpicPlayerA10/PotionExpansion/wiki).
 
 ## TODO
 - Brew normal potions in alchemic station.
