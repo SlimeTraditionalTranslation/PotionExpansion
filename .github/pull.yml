@@ -1,0 +1,7 @@
+version: "1"
+rules:
+  - base: master
+    upstream: EpicPlayerA10:master
+    mergeMethod: merge
+    conflictReviewers:
+      - SlimeTraditionalTranslation/Translate-Maintainer
