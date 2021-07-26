@@ -5,7 +5,7 @@ name: PotionExpansion
 author: EpicPlayerA10
 
 ## CHANGE this to a meaninful but short description of your plugin.
-description: 黏液科技附加 藥水擴充 繁體翻譯版!
+description: 黏液科技附加 藥水擴充 繁體翻譯版.
 
 ## CHANGE this to the path of the class that extends JavaPlugin.
 main: com.epicplayera10.potionexpansion.PotionExpansion
