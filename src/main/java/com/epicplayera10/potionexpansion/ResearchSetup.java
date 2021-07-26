@@ -22,6 +22,6 @@ public class ResearchSetup {
                 .addItems(PotionItems.ALCHEMIC_STATION)
                 .register();
 
-        plugin.getLogger().info("Loaded researches!");
+        plugin.getLogger().info("載入研究!");
     }
 }
