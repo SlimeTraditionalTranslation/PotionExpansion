@@ -26,7 +26,7 @@ public class ItemUtil {
                     meta.addEnchant(Enchantment.LURE, 1, true);
                     meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
                     meta.addItemFlags(ItemFlag.HIDE_POTION_EFFECTS);
-                    meta.setLore(Collections.singletonList(ChatColor.BLUE + ChatUtils.humanize(id) + " (" + formatTime(Settings.getPotionDuration()) + ")"));
+                    meta.setLore(Collections.singletonList(ChatColor.BLUE + ChatUtils.humanize(name.substring(4)) + " (" + formatTime(Settings.getPotionDuration()) + ")"));
                 }
         );
     }
