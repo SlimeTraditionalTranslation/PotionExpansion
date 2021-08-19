@@ -30,6 +30,3 @@
 
 ## 配置
 點擊 [這裡](https://github.com/EpicPlayerA10/PotionExpansion/wiki).
-
-## TODO
-- Brew normal potions in alchemic station.
