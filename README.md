@@ -2,6 +2,8 @@
 這是Slimefun的附加插件，帶有合法的X-Ray的新藥水!<br>
 插件想法來自於 [Potions Master](https://www.curseforge.com/minecraft/mc-mods/potionsmaster) 模組.
 
+> 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
+> [原作連結](https://github.com/EpicPlayerA10/PotionExpansion) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
 ## 藥水
 - 煤炭礦視覺
 - 鐵礦視覺
@@ -15,9 +17,6 @@
 - 銅礦視覺
 
 ## 下載
-> 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
-> [原作連結](https://github.com/EpicPlayerA10/PotionExpansion) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
-
 | 非官方繁體中文版 | 官方英文版 |
 | -------- | -------- |
 | 點下方圖片下載 | 點下方圖片下載 |
