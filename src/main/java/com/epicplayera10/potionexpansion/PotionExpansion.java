@@ -6,7 +6,7 @@ import com.epicplayera10.potionexpansion.listeners.DrinkMilkListener;
 import com.epicplayera10.potionexpansion.tasks.EffectsTask;
 
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
+//import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import org.apache.commons.lang.Validate;
 
 import org.bukkit.Bukkit;
