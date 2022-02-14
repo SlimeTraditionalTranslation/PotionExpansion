@@ -23,6 +23,8 @@
 | 點下方圖片下載 | 點下方圖片下載 |
 | [![Build Status](https://xmikux.github.io/builds/SlimeTraditionalTranslation/PotionExpansion/master/badge.svg)](https://xmikux.github.io/builds/SlimeTraditionalTranslation/PotionExpansion/master) | [![Build Status](https://thebusybiscuit.github.io/builds/EpicPlayerA10/PotionExpansion/master/badge.svg)](https://thebusybiscuit.github.io/builds/EpicPlayerA10/PotionExpansion/master) |
 
+## 教程:
+- https://www.youtube.com/watch?v=GDrJ5mX4njk
 
 ## 指令
 主要指令 `/pe`
