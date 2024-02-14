@@ -18,15 +18,17 @@ import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionData;
 import org.bukkit.potion.PotionType;
 
+import java.util.Arrays;
+
 public class PotionItems {
 
-    //Normal Items
+    // Normal Items
     public static final ItemStack mundanePotion = new CustomItemStack(Material.POTION, (itemMeta -> {
         PotionMeta meta = (PotionMeta) itemMeta;
         meta.setBasePotionData(new PotionData(PotionType.MUNDANE));
     }));
 
-    //Categories
+    // Categories
     public static final ItemGroup potionCategory = new ItemGroup(new NamespacedKey(PotionExpansion.getInstance(),
             "potionexpansion"),
             new CustomItemStack(Material.POTION, itemMeta -> {
@@ -38,11 +40,24 @@ public class PotionItems {
             })
     );
 
-    //Items
+    // Items
     public static final SlimefunItemStack ALCHEMIC_STATION = new SlimefunItemStack("ALCHEMIC_STATION",
             Material.BREWING_STAND,
             "&6煉金站",
             "&a&o像普通的釀造台一樣工作，但可以製作視覺藥水."
+    );
+
+    public static final SlimefunItemStack PESTLE = new SlimefunItemStack("PESTLE",
+            Material.FLINT,
+            "&f&l杵",
+            meta -> {
+                meta.setLore(Arrays.asList(
+                        ChatColors.color("&a&o您可以使用它來粉碎礦物"),
+                        ChatColors.color("&c&l這是一次性道具")
+                ));
+                meta.addEnchant(Enchantment.DURABILITY, 1, true);
+                meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+            }
     );
 
     // Powders
